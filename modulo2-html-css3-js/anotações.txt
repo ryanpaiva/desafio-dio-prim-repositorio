@@ -1,0 +1,47 @@
+
+HTML 1 - 1992
+HTML 2 - 1995
+HTML 3 - 1997
+HTML 4 - 1997
+HTML 5 - 2014
+
+ESTRUTURA BÁSICA
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta>
+  <title></title>
+ </head>
+ <body>
+ </body>
+</html>
+
+----------------------------------------------------------
+
+Semântica
+
+<section> <aside>
+
+<header> <footer>
+
+<article> <h1-h6>
+
+<h1> título da página </h1>
+<h2> título da seção </h2>
+<h3> Título de artigo </h3>
+<p> Contéudo do artigo. </p>
+
+<a>Link</a>
+<a href="instagram.com/perfil">Instagram</a>
+<a href="maito:email@email.com">E-mail</a>
+<a target="_blank_>Link</a>
+
+--------------------------------------------------------
+
+Imagens
+
+<img>
+<img src="img/avatar.jgp">
+<img alt="descrição da foto">
+
