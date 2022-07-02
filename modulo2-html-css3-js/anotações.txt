@@ -45,3 +45,106 @@ Imagens
 <img src="img/avatar.jgp">
 <img alt="descrição da foto">
 
+--------------------------------------------------------
+
+CSS3
+ 
+INTRODUÇÃO AO CSS3
+
+seletores
+a, p, h1, h3 {
+   color: blue;
+   font-size: 14px;
+}
+
+declarações
+
+--------------------------------------------------------
+
+ID x Classe
+
+<header id="header" class="header"></header>
+
+<header class="header"></header>
+--------------------------------------------------------
+
+.header {
+    padding: 10px;
+}                  ID
+--------------------------------------------------------
+#header {
+    padding: 15px;
+}                 CLASS
+--------------------------------------------------------
+ID SÓ PODE SER USADO UMA VEZ NA PÁGINA
+--------------------------------------------------------
+box model
+
+margin
+ border
+  padding
+   content
+
+--------------------------------------------------------
+
+background-image: url("bgb.png");
+backgrounf-position: top;
+background-color: green;
+
+--------------------------------------------------------
+
+border: 3px solid blue;
+border-top: 2pc dotted green;
+border-right: 4pc dashed pink;
+--------------------------------------------------------
+
+ESTILIZAÇÃOA DE LISTA
+
+ul {
+  list-style-type: square;
+}
+
+ol{
+ upper-roman
+}
+
+ul {
+: "\1f44d";
+}
+
+list-style-image: url("rocket.png");
+
+--------------------------------------------------------
+
+width - largura
+height - altura
+
+max-widht - largura maxima
+mas-height - altura maxima
+
+margin - alinhamento
+
+text align - alinhamento de texto
+
+--------------------------------------------------------
+
+CSS FLEXBOX
+
+flex container - "display:flex" - transforma todos os itens filhos em flex itens
+display                 justify-content
+flex-direction          align-itens
+flex-wrap               align-content
+flex-flow
+
+FLEX ITEM
+são os elementos filhos diretos do flex container. e tbm podem se tornar flex container
+flex-grow       flex
+flax-basis      order
+flex-shrink     align-self
+
+--------------------------------------------------------
+
+FUNDAMENTOS DO FLEXBOX
+
+ESTRUTURA BÁSICA DO DISPLAY-FLEX
+
